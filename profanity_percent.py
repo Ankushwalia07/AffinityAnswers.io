@@ -5,7 +5,7 @@ profanity_list = ["racial_slur1", "racial_slur2", "racial_slur3", ...] #
 list of racial slurs
 tweet_file= pd.read_csv(r'tweet file.txt Path') # path to the tweet file
 # Loop through each tweet in the file
-    for tweet in file:
+    for tweet in tweet_file:
         # Remove any URLs from the tweet
         tweet = re.sub(r"http\S+", "", tweet)
         #removing the hash # sign from the word
